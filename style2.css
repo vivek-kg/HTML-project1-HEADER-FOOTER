@@ -1,0 +1,130 @@
+html,body  
+{
+  margin: 0;
+  padding: 0;
+ 
+  font-family: 'Nunito', sans-serif;
+}
+header#thala2
+{
+    background: linear-gradient(45deg, darkcyan,white);
+    
+    width:100%;
+    display: block;
+    height: 100px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 2px black;
+    font-size: 18px;
+}
+/* body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height :30px;
+    margin: 50px;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+    background-image: linear-gradient(darkcyan,rgba(255,255,255));
+    
+} */
+
+/*h1#Heading1      /*HTML
+{
+    color: white;
+    background-image: linear-gradient(darkcyan,rgb(48, 209, 209));
+    margin:0px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    
+    text-transform:uppercase;
+}*/
+
+    
+
+ul   /unordered list Index/
+{
+    margin: 50px;
+}
+ul li a /* Removing Underline */
+{
+    text-decoration: none;
+
+}
+li:nth-child(even) /Display even all are in colors/
+{
+    background-color: azure;
+    color:gray;
+}
+li:nth-child(odd)  /Display odd all are in colors/
+{
+    background-color: antiquewhite;
+    color:black;
+}
+
+
+p#top a /* Scroll to top nesting Tag means space ,grouping means , ctrl + K + U */
+{
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    padding:7px;
+    border-radius: 50px;
+
+}
+p#top a:hover /Its Display the button action/
+{
+    color:brown;
+    font-weight: 200;
+    text-shadow : 30px;
+
+}
+Section#Section1 img   /* Its Display the image size and align */
+{
+    margin:0 auto;
+    display:block;
+}
+div#txt p 
+{
+
+
+margin-left: 500px;
+
+}
+div#txt1 p iframe
+{
+
+
+margin-left: 100px;
+
+}
+
+a:visited
+{
+    text-decoration: none;
+    
+    
+}
+
+article h2
+{
+ color: coral;
+}
+
+
+.main-footer
+{
+    background:linear-gradient(45deg,green,blue);
+    color: white;
+    padding: 12px;
+    box-shadow:0 5px black;
+}
+.main-footer 
+{
+    color: chartreuse;
+    background: linear-gradient(45deg,green,blue);
+    padding: 20px;
+    box-shadow: 0 3px 2px black;
+}
